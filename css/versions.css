@@ -1,0 +1,551 @@
+/*------------------------------------------------------------------
+    Version: 1.0
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1. DEFAULT VERSION (Check style.css and colors.css)
+    2. HOSTING VERSION
+    3. SEO VERSION
+    4. WATCH VERSION
+    5. APP VERSION
+    6. CLINIC VERSION
+    7. REAL ESTATE VERSION
+    8. POLITICS VERSION
+    9. BARBER VERSION
+    10. BUILDING VERSION
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    1. BARBER
+-------------------------------------------------------------------*/
+
+body.barber_version .participate-wrap small,
+body.barber_version .message-box h4,
+body.barber_version .customwidget li i,
+body.barber_version .navbar-nav span {
+    color: #424145 !important;
+}
+
+body.barber_version .sidebar-nav li:hover a {
+    background: #192a51;
+	color: #ffffff;
+}
+
+body.barber_version .lead strong,
+body.barber_version .icon-wrapper:hover a,
+body.barber_version a:hover,
+body.barber_version a:focus {
+    color: #893d00;
+}
+
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+body.barber_version .icon_wrap:hover,
+body.barber_version .nav-pills > li.active > a,
+body.barber_version .nav-pills > li.active > a:focus,
+body.barber_version .nav-pills > li.active > a:hover,
+body.barber_version .icon-wrapper:hover i{
+    color: #ffffff;
+    background: #b8dbd9;   
+}
+
+body.barber_version .grd1 {
+	color: #ffffff;
+    background: #111111;
+}
+
+body.barber_version .dmtop,
+body.barber_version .icon_wrap,
+body.barber_version .dmtop:hover,
+body.barber_version .features-right li:hover i,
+body.barber_version .features-left li:hover i,
+body.barber_version .nav-pills > li:hover > a,
+body.barber_version .nav-pills > li:focus > a,
+body.barber_version .nav-pills > li.active > a,
+body.barber_version .nav-pills > li.active > a:focus,
+body.barber_version .nav-pills > li.active > a:hover,
+body.barber_version .divider-bar,
+body.barber_version .owl-next:hover i,
+body.barber_version .owl-prev:hover i,
+body.barber_version .icon-wrapper:hover i:hover{
+    background-position: 100px;
+    color: #ffffff;
+    background: #111111;
+}
+
+body.barber_version .grd1:hover,
+body.barber_version .grd1:focus {
+	color: #ffffff;
+    background: #192a51;
+}
+
+body.barber_version .cac:hover{
+	background: #192a51;
+}
+
+body.barber_version .effect-1:after {
+    box-shadow: 0 0 0 2px #192a51;
+}
+
+body.barber_version {    
+    overflow-x: hidden;
+}
+
+body.barber_version .first-section .grd1 {
+    border: 0 !important;
+    padding: 17px 40px;
+    font-size: 15px;
+	font-weight: 600;
+}
+
+body.barber_version .container-fluid {
+    max-width: 1280px;
+}
+
+body.barber_version .section.lb {
+    background-color: #f9f9f9;
+}
+
+
+/* Toggle Styles */
+
+body.barber_version .menuopener {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #192a51;
+    z-index: 111;
+    color: #fff !important;
+    width: 50px;
+    height: 50px;
+    display: none;
+    line-height: 50px;
+	font-size: 24px;
+    text-align: center;
+}
+
+body.barber_version .menuopener:hover{
+	background-color: #111111;
+}
+
+body.barber_version #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+body.barber_version #wrapper.toggled {
+    padding-left: 280px;
+}
+
+body.barber_version #sidebar-wrapper {
+    z-index: 1000;
+    border-right: 1px dashed rgba(255, 255, 255, 0.1);
+    position: fixed;
+    left: 280px;
+    width: 0;
+    height: 100%;
+    margin-left: -280px;
+    overflow-y: auto;
+    background: #111111;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+body.barber_version .contact_form {
+    background-color: #111111;
+    border: 0;
+    border-bottom: 2px solid #1f1f1f !important;
+}
+
+body.barber_version .contact_form .form-control {
+    background-color: #000;
+    border: 0;
+    border-bottom: 2px solid #1f1f1f !important;
+}
+
+body.barber_version .contact_form .btn {
+    border: 0 !important;
+}
+
+body.barber_version .contact_form .btn.subt{
+	background: #192a51;
+}
+
+body.barber_version .section.db,
+body.barber_version .copyrights,
+body.barber_version .cac,
+body.barber_version .footer {
+    background-color: #000000;
+}
+
+body.barber_version #wrapper.toggled #sidebar-wrapper {
+    width: 280px;
+}
+
+body.barber_version #page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+body.barber_version #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -280px;
+}
+
+body.barber_version .first-section h2 strong {
+    font-size: 68px;
+}
+
+body.barber_version .first-section h2 {
+    font-size: 52px;
+}
+
+
+/* Sidebar Styles */
+
+
+body.barber_version .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body.barber_version .logo-sidebar {
+    display: block;
+    margin: 0 0 2em;
+}
+
+body.barber_version .sidebar-nav li {
+    line-height: 45px;
+	margin-bottom: 15px;
+}
+
+body.barber_version .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+	background-color: transparent;
+	font-weight: 600;
+	padding: 7px 17px 7px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 21px;
+}
+
+body.barber_version .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+body.barber_version .sidebar-nav li a:active,
+body.barber_version .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+body.barber_version .section-title h3 {
+    font-size: 34px;
+    padding: 10px 0 0;
+    font-weight: bold;
+    line-height: 1 !important;
+}
+
+body.barber_version .section-title small {
+    font-size: 15px;
+}
+
+body.barber_version .section-title hr {
+    width: 100px;
+    margin: 0 auto 30px !important;
+    padding: 1px;
+    background-color: #111;
+}
+
+body.barber_version hr.invis4 {
+    margin: 90px 0 0;
+    border: 0;
+}
+
+body.barber_version .service-wrap {
+    margin: 30px 0;
+	padding: 20px;
+    display: block;
+    position: relative;
+    background: #ffffff;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	border-radius: 10px;
+	transition: all 1s ease-in-out;
+}
+
+body.barber_version .service-wrap h4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+body.barber_version .service-wrap p,
+body.barber_version .service-wrap p {
+    margin-bottom: 0;
+}
+
+body.barber_version .service-wrap img {
+    max-width: 120px;
+    margin: 0 30px 0 0;
+}
+
+body.barber_version .dev-list .widget p {
+    margin: 0;
+    padding: 5px 0 15px;
+}
+
+body.barber_version .dev-list img {
+    width: 100%;
+}
+
+body.barber_version .dev-list .widget {
+    padding: 30px;
+	margin-bottom: 30px;
+    border: 1px solid #ededed;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+
+body.barber_version .dev-list .widget h3 {
+    font-size: 21px;
+    padding: 0 0 5px;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+body.barber_version .dev-list .grd1 {
+    margin: 0 2px;
+    border-radius: 10px;
+}
+
+body.barber_version .dev-list .widget-title {
+    padding: 20px 0 10px;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+@media(max-width:768px) {
+    body.barber_version .menuopener {
+        display: block;
+    }
+    body.barber_version .first-section h2 strong,
+    body.barber_version .first-section h2 {
+        font-size: 36px;
+    }
+}
+
+@media(min-width:768px) {
+    body.barber_version #wrapper {
+        padding-left: 285px;
+    }
+    body.barber_version #wrapper.toggled {
+        padding-left: 0;
+    }
+    body.barber_version #sidebar-wrapper {
+        width: 305px;
+    }
+    body.barber_version #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+    body.barber_version #page-content-wrapper {
+        padding: 0;
+        position: relative;
+    }
+    body.barber_version #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+
+/*------------------------------------------------------------------
+    10. BUILDING VERSION
+-------------------------------------------------------------------*/
+
+body.building_version {
+    font-family: 'Raleway', sans-serif;
+}
+
+body.building_version .message-box h4,
+body.building_version .widget-title small,
+body.building_version .customwidget li i,
+body.building_version .navbar-nav span {
+    color: #ffc000 !important;
+}
+
+body.building_version .lead strong,
+body.building_version .icon-wrapper:hover a,
+body.building_version a:hover,
+body.building_version a:focus {
+    color: #fdde00
+}
+
+body.building_version .effect-1:after {
+    box-shadow: 0 0 0 2px #ffc000;
+}
+
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+body.building_version .btn-buy:hover,
+body.building_version .cac:hover,
+body.building_version .icon_wrap:hover,
+body.building_version .nav-pills > li.active > a,
+body.building_version .nav-pills > li.active > a:focus,
+body.building_version .nav-pills > li.active > a:hover,
+body.building_version .icon-wrapper:hover i,
+body.building_version .grd1 {
+    color: #000 !important;
+    background: #ffc000;
+    border: #ffc000;
+    background: -moz-linear-gradient(left, #ffc000 0%, #fdde00 100%);
+    background: -webkit-linear-gradient(left, #ffc000 0%, #fdde00 100%);
+    background: linear-gradient(to right, #ffc000 0%, #fdde00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc000', endColorstr='#fdde00', GradientType=1);
+}
+
+body.building_version .dev-list .widget h3,
+body.building_version .icon_wrap,
+body.building_version .dmtop:hover,
+body.building_version .features-right li:hover i,
+body.building_version .features-left li:hover i,
+body.building_version .nav-pills > li:hover > a,
+body.building_version .nav-pills > li:focus > a,
+body.building_version .nav-pills > li.active > a,
+body.building_version .nav-pills > li.active > a:focus,
+body.building_version .nav-pills > li.active > a:hover,
+body.building_version .divider-bar,
+body.building_version .owl-next:hover i,
+body.building_version .owl-prev:hover i,
+body.building_version .icon-wrapper:hover i:hover,
+body.building_version .grd1:hover,
+body.building_version .grd1:focus {
+    background-position: 100px;
+    color: #000 !important;
+    background: #fdde00;
+    background: -moz-linear-gradient(left, #fdde00 0%, #ffc000 100%);
+    background: -webkit-linear-gradient(left, #fdde00 0%, #ffc000 100%);
+    background: linear-gradient(to right, #fdde00 0%, #ffc000 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fdde00', endColorstr='#ffc000', GradientType=1);
+}
+
+body.building_version .navbar-nav span {
+    color: #fdde00 !important;
+}
+
+body.building_version .seo-services .col-md-3:hover img {
+    border-color: #fdde00;
+}
+
+body.building_version .affix {
+    background-color: #000000 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.building_version .header_style_01 {
+    background-color: #000000;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: relative;
+}
+
+body.building_version .header_style_01 .navbar-default .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+body.building_version .header_style_01 .navbar-default .navbar-nav > li.active a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:hover a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:focus a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:active a {
+    color: #fcdb08 !important;
+}
+
+body.building_version .first-section {
+    padding: 12em 0;
+}
+
+body.building_version .first-section h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+body.building_version .first-section .lead {
+    color: #222222;
+}
+
+body.building_version .first-section .btn {
+    background-color: #000000 !important;
+    border: 0 !important;
+}
+
+body.building_version .message-box h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body.building_version .dev-list .widget {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+body.building_version .dev-list .widget h3 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 4px 10px;
+    position: relative;
+    top: -12px;
+}
+
+body.building_version .dev-list .widget small {
+    display: block;
+    margin: -10px 0 5px;
+}
+
+body.building_version .footer-social {
+    display: block;
+    margin-top: 15px;
+}
+
+body.building_version .message-box p {
+    margin-bottom: 0;
+}
+
+body.building_version .message-box p.lead {
+    margin-bottom: 30px;
+}
+
+body.building_version .btn-dark {
+    border: 2px solid #000000 !important;
+    color: #000000 !important;
+}
+
+body.building_version .section-title h3 {
+    font-weight: bold;
+}
+
+body.building_version .contact_form .btn {
+    border: 0 !important;
+}
